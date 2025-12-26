@@ -47,13 +47,8 @@ body {
   padding: 24px 0px;
 }
 
-.colorPicker {
-  position: relative;
-
-}
-
-
 .screen {
+  position: absolute;
   box-sizing: content-box;
   display: flex;
   flex-wrap: wrap;
@@ -62,6 +57,12 @@ body {
   width: 384px;
   border: 2px solid;
 
+}
+
+.colorPicker {
+  position: relative;
+  padding: 8px 24px;
+  right: 300px;
 }
 
 /* Footer */
